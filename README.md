@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/VHGC1/status-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/html5-css-FyzFmDv97)
+- Live Site URL: [here](https://status-preview-card.netlify.app/)
 
 ### Built with
 
@@ -38,7 +38,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/VHGC1)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/VHGC1)
+- Website - [VHGC](https://github.com/VHGC1)
+- Frontend Mentor - [@VHGC](https://www.frontendmentor.io/profile/VHGC1)
 
 
