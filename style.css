@@ -6,8 +6,14 @@
 }
 
 html {
-  padding: 200px 250px;
   background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
 }
 
 /*card*/
@@ -25,6 +31,7 @@ html {
   padding: 50px;
   border-radius: 5px 0 0 5px;
   background-color: hsl(244, 38%, 16%);
+  max-width: 375px;
 }
 
 .text {
@@ -75,10 +82,10 @@ strong {
 
 /*right*/
 
-
-img {
-  border-radius: 0 5px 5px 0px;
-  height: 100%;
+.card_right {
+  position: relative;
+  display: block;
+  max-width: 485px;
 }
 
 .sob {
@@ -89,12 +96,12 @@ img {
   position: absolute;
 }
 
-.card_right {
-  position: relative;
-  display: block;
+img {
+  border-radius: 0 5px 5px 0px;
   height: 100%;
-  width: 100%;
 }
+
+
 
 .card_right span{
   position: relative;
@@ -102,13 +109,13 @@ img {
 }
 
 @media (max-width: 760px){
-  * {
-    padding: 0;
-  }
-
   .card {
     flex-direction: column;
     width: 200px;
+  }
+
+  .card_left {
+    
   }
 
 }
