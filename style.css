@@ -52,10 +52,7 @@ html {
 
 .text_down {
   display: flex;
-}
-
-.text_down div{
-  margin-right: 70px;
+  justify-content: space-between;
 }
 
 .num {
@@ -64,6 +61,7 @@ html {
   font-family: 'Inter';
   font-weight: 700;
   color: hsl(0, 0%, 100%);
+  font-size: 18px;
 }
 
 .text_down_num {
