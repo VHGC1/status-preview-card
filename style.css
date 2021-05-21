@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
+
 * {
   padding: 0;
   margin: 0;
@@ -29,7 +30,7 @@ html {
   text-align: left;
   display: flex;
   padding: 50px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 10px 0 0 10px;
   background-color: hsl(244, 38%, 16%);
   max-width: 375px;
 }
@@ -92,12 +93,12 @@ strong {
   background-color: hsl(277, 97%, 62%);
   height: 100%;
   width: 100%;
-  border-radius: 0 5px 5px 0px;
+  border-radius: 0 10px 10px 0px;
   position: absolute;
 }
 
 img {
-  border-radius: 0 5px 5px 0px;
+  border-radius: 0 10px 10px 0px;
   height: 100%;
 }
 
@@ -109,13 +110,61 @@ img {
 }
 
 @media (max-width: 760px){
+
+  * {
+    margin: revert;
+  }
+
+  .container {
+    display: block;
+    height: 100%;
+  }
+
   .card {
-    flex-direction: column;
-    width: 200px;
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 100px 25px;
   }
 
   .card_left {
-    
+    max-width: 763px;
+    border-radius: 0 0 10px 10px;
+    padding: 50px 30px;
   }
+
+  .card_right {
+    max-width: 763px;
+  }
+
+  .text {
+    text-align: center;
+    margin: auto;
+  }
+
+  .text_down {
+    flex-direction: column;
+  }
+
+  .sob {
+    border-radius: 10px 10px 0 0;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .text_down div {
+    margin-bottom: 20px;
+  }
+
+  .text_down div:first-child {
+    margin-top: 30px;
+  }
+
+  .num {
+    font-size: 25px;
+  }
+
 
 }
